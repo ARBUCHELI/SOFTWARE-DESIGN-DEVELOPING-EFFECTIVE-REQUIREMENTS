@@ -1,0 +1,60 @@
+# Introduction
+--------------
+
+* Requirements: Well begun, half done!
+--------------------------------------
+
+* Prototype
+-----------
+. Mockup: horizontal prototype to validate user interface only.
+
+. Proof of concept: vertical prototype of a complete but narrow functionality to validate complete technology stack. ---> (THAT'S THE REASON WHY WE ARE STARTING WITH THE AUTHENTICATION
+															  PROCESS).
+
+* Choosing the Techniques
+-------------------------
+
+. Type of application
+
+	. Custom application for an organization
+	
+	. Mass-market product
+
+
+. Application domain familiarity
+
+. Access to user
+
+. Access to systems currently in use
+
+
+* Estimation
+------------
+	. Team members reveal their card
+
+	. If estimates differ, then another round of discussion is conducted, especially with the highest and the lowest estimators
+
+	. Team members reselect their card
+
+	. Team repeats this cycle until consensus is reached
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* What you should know
+----------------------
+. Basic understanding of software development life cycle.
+
+. A beginner's appreciation for agile methodologies will help.
+
+
+* Key References
+----------------
+Software Requirements by Karl Wiegers and Joy Betty
+
+Essential Scrum: A Practical Guide to the Most Popular Agile Process by Kenneth S. Rubin 
+
+Open Unified Process (OpenUp)
+
+. http://www.utm.mx/~caff/doc/OpenUPWeb/index.htm
+
+

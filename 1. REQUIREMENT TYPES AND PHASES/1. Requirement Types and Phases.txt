@@ -1,0 +1,240 @@
+# 1. Requirement Types and Phases
+---------------------------------
+
+* What are requirements
+-----------------------
+
+. Requirement
+-------------
+A CONDITION OR CAPABILITY TO WHICH A SYSTEM MUST CONFORM 
+	. The Rational Unified Process by Phillipe Kruchten
+
+A SPECIFICATION OF WHAT SHOULD BE IMPLEMENTED
+	. Requirements Engineering: A Good Practice Guide by Ian Sommerville and Pete Sawyer
+
+A PROPERTY A PRODUCT MUST HAVE TO PROVIDE VALUE TO STAKEHOLDER
+	. Software Requirements by Karl Weigers and Joy Beatty
+
+ANYTHING THAT DRIVES DESIGN CHOICES
+	. "Requirement Happens", American Programmer, by Brian Lawrence
+
+
+* Types of requirements
+-----------------------
+	. High level business requirements
+
+	. External interface requirements
+
+	. Functional requirements
+
+	. Non functional requirements.
+
+
+* Whose requirement
+-------------------
+	. Who are the stakeholders?
+
+		. User: How the system should behave
+	
+		. Developer: The technology required to produce that behavior
+
+
+* Requirement
+-------------
+	. Business requirement: Executive sponsor of the system, High-Level objective (For example the Dean of a university want to improve student participation in university events).
+								 --------------------
+		. Business rule: Policy, standard, regulation: no events to be scheduled during class hours.
+				 -----------------------------
+
+	. Functional requirement: System behavior: system should generate event alerts.
+				  ----------------
+
+	. Nonfunctional requirement: System characteristics "-ilities": system should be easy to use. (Usability, maintainability, quality).
+				     ----------------------------------
+		USABILITY, PERFORMANCE, SECURITY, ARE CONSIDERED AS NONFUNCTIONAL REQUIREMENTS.
+
+	
+	. External interface requirement: System integration: When the system needs to integrate with external databases, products, websites, or any other entity, then that becomes and 
+					  -------------------  external interface requirement. System should get timetables from course scheduling system.
+
+
+	. Constrain: When the developer's choices are restricted in terms of design options they have, then the requirement is viewed as a constrain. Developer choices: 
+																		      ------------------
+		The GUI should be based on university's standard template.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Requirement development vs. management
+----------------------------------------
+
+* Requirement Activities
+------------------------
+
+			Requirement Development					Requirement Management
+			-----------------------					----------------------
+			. Elicit					        . Prioritize
+
+			. Specify						. Estimate
+
+			. Analyze						. Schedule
+
+			. Validate						. Track
+
+
+
+* Requirement Management in Scrum
+---------------------------------
+1) PRIORITIZE: Create the product backlog. (Prioritized list of features to be developed over next several sprints).
+
+	Requirements can be prioritized based on:
+		. Risk
+		. Business urgency
+		. Cost
+
+2) ESTIMATE: Planning Poker.
+
+3) SCHEDULE: Sprint backlog.
+
+4) TRACK: Burndown chart. (Kanban board).
+
+
+* Software Methodology Platforms
+--------------------------------
+. All methodologies generate work items or artifacts
+
+. Software methodology platforms offer tools and templates to create and manage these artifacts. (APLICATION DEVELOPMENT LIFECYCLE MANAGEMENT TOOLS - ADLM) --> ENTERPRISE AGILE PLANNING
+TOOLS.
+
+
+* Process Frameworks
+--------------------
+. Microsoft
+-----------
+	. Microsoft Solutions Framework (MSF)
+
+. IBM
+-----
+	. Rational Unified Process (RUP) framework
+	
+	. Eclipse: OpenUP
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Requirement Development Phases
+--------------------------------
+		REQUIREMENT DEVELOPMENT MEANS PROGRESSIVE ELABORATION OF A SYSTEM'S PROPERTIES THAT OFFER SOME VALUE TO ITS STAKEHOLDERS.
+
+
+* Levels of Requirements
+------------------------
+		BUSINESS REQUIREMENT	(Improve student participation in university events).
+
+		PRODUCT VISION	(Provides a long-term direction to the project).
+
+		PROJECT SCOPE	(Define what is in scope, and what is out of scope).
+
+		User requirement - Functional requirement - Nonfunctional requirement - Constrain - Business rule - External dependency
+
+
+* REQUIREMENT DEVELOPMENT ACTIVITIES
+------------------------------------
+
+* ELICIT:
+---------
+		THERE WAS A TIME WHEN SOFTWARE PROFESSIONALS USED A TERM, REQUIREMENT GATHERING. --> NO CORRECT.
+
+		USERS DO NOT HAVE REQUIREMENTS CLEARLY WRITTEN SOMEWHERE. IN FACT, USERS OFTEN EVEN DO NOT HAVE A CLEAR IDEA OF WHAT THEY WANT.
+
+		REQUIREMENTS NEED TO BE ELICITED, AND ELICITATION START BY HAVING CONVERSATIONS WITH YOUR USERS.
+
+		* WE NEED TO UNDERSTAND WHAT THE USERS WANT:
+		--------------------------------------------
+			. Their roles vary with factors such as functionality they need.
+
+			. Access privileges to the system.
+
+			. Their levels of expertise in using the system.
+
+			. The devices they will use to use the system.
+
+
+* SPECIFY:
+----------
+		USER STORY
+
+		USE CASES
+
+
+* ANALYSIS:
+-----------
+
+* Requirement Analysis in Scrum
+-------------------------------
+		STORY MAPPING TECHNIQUE
+
+
+* VALIDATE:
+-----------
+		USER FEEDBACK.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Challenge: Group Requirements
+-------------------------------
+
+* Nutrition Tracking Requirements
+---------------------------------
+1. Track nutrition by meal (FUNCTIONAL REQUIREMENT) 
+
+2. Take nutrition data for all food products from www.usda.gov (EXTERNAL INTERFACE) 
+
+3. Suggest nutrition requirements based on user's gender, age, height, weight (FUNCTIONAL REQUIREMENT) 
+
+4. Post a disclaimer on all suggestion outputs that is based on USDA recommendations. (BUSINESS RULE) 
+
+5. Achieve minimum 80% adoption among EatFit customers within one year of product launch. (BUSINESS REQUIREMENT) 
+
+6. Collect data to track frequency and patterns of usage of all features. (FUNCTIONAL REQUIREMENT) 
+
+7. First release of the app targeted for two months from start. (BUSINESS REQUIREMENT)
+
+8. User must log in to access personal data. (FUNCTIONAL REQUIREMENT) 
+
+9. The user data must be protected as per the Health Insurance Portability and Accountability Act (HIPAA). 
+
+10. The app should be intuitive and easy to use with no training requirements. (NON FUNCTIONAL REQUIREMENT) 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+

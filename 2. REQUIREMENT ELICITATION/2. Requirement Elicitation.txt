@@ -1,0 +1,308 @@
+# 2. Requirement Elicitation
+----------------------------
+
+* Start with a vision
+---------------------
+
+* Problem Statement
+-------------------
+	. The problem of			[describe the problem]	
+
+	. affects				[the stakholders affected by the problem]
+
+	. the impact of which is		[what is the impact of the problem?]
+
+	. a successful solution would be	[list some key benefits of a successful solution]
+
+
+* Product Vision
+----------------
+	. For					[target customer]
+	
+	. Who					[statement of the need or opportunity]
+
+	. The (product name)			is a [product category]
+
+	. That 					[statement of key benefit; that is, the compelling reason to buy]
+
+	. Unlike				[primary competitive alternative]
+
+	. Our product				[statement of primary differentiation]
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Elicitation techniques
+------------------------
+
+		With User Involvement				Independently
+		---------------------				-------------
+		. Interviews					. System interface analysis
+
+		. Workshops					. User interface analysiss
+
+		. Focus groups					. Document analysis
+
+		. Observations
+
+		. Questionnaires
+
+
+* Interview
+-----------
+. Often one-on-one or with small group of users
+
+. Helps get an initial understanding of application and business domain
+
+. Helps build rapport and get user buy-in
+
+. Requires least preparation
+
+. Allows schedule flexibility but time consuming
+
+
+* Workshops
+-----------
+. Helps elicit requirements from multiple stakeholders concurrently
+
+. Helps resolve disagreements among stakeholders
+
+. Needs preparation to facilitate and a scribe to capture all stakeholder requirements and decisions
+
+. Time effective but has scheduling challenges
+
+
+* Focus Groups
+--------------
+. Conducted with representative users when user group is too large or inaccessible
+
+. Users are often no the decision makers
+
+. Help generate ideas and understand user preferences
+
+. Requires preparation
+
+. Time effective but requires scheduling
+
+
+* Observation
+-------------
+. Helps capture requirements that are too complex to explain in words
+
+. Effective in understanding how users currently perform their tasks
+
+. Time consuming and may feel intrusive to the user
+
+. May be silent or interactive
+
+
+* Questionnaire
+---------------
+. Effective in eliciting requirements from a large group of remote users
+
+. Hard to prepare well-written questions
+
+. Shorter the questionnaire, higher the response rate
+
+
+* Independent Elicitation
+-------------------------
+. System interface analysis: identify external systems for the new system to interface with
+
+. User interface analysis: study the UI of existing systems, if any
+
+. Document analysis: study the documents about the legacy systems
+
+
+* Choosing the Techniques
+-------------------------
+
+Type of application
+-------------------
+. Custom application for an organization
+
+	IDENTIFY ALL THE STAKEHOLDERS IN THE ORGANIZATION AND MANAGE THEIR EXPECTATIONS CAREFULLY (MR. VALERIY SAID THAT HE AND MR. ANATOLY WILL EVALUATE EVERYTHING).
+
+	THE REQUIREMENTS IN THIS CASE ARE VERY SPECIFIC TO THE NEEDS OF THE ORGANIZATION.
+
+. Mass market product
+
+	DEVELOP SOME INSTINCT FOR WHAT WILL WORK IN THE MARKET.
+
+
+* APPLICATION DOMAIN FAMILIARITY	(How the members of the team are familiar with the type of application we are developing)
+--------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Functional vs. non-functional
+-------------------------------
+
+	FUNCTIONAL REQUIREMENTS REPRESENT WHAT THE SYSTEM SHOULD DO (These are what the users are concerned about)
+
+	NON FUNCTIONAL REQUIREMENTS REPRESENT HOW THE SYSTEM SHOULD DO THOSE TASKS (System properties)
+
+	FOR ARCHITECTS KNOWING EXACTLY WHICH NON FUNCTIONAL REQUIREMENTS ARE EXPECTED PLAYS A CRITICAL ROLE IN DEFINING THE UNDERLIYING ARCHITECTURE OF THE SYSTEM.
+
+		Usability
+
+		Reliability
+
+		Performance
+
+		Supportability
+
+
+	NON FUNCTIONAL REQUIREMENTS DRIVE THE SYSTEM ARCHITECTURE AND THESE REQUIREMENTS MANIFEST BROADLY IN TWO WAYS:
+
+		Quality
+
+		Constrains
+
+
+			NONFUNCTIONAL REQUIREMENTS
+			--------------------------
+
+				 Quality							Constraints				
+				 -------							-----------
+		 External			Internal					. Harware			
+		---------		       ----------					. Software
+		. Usability		       . Supportability					. Data
+		. Reliability		       . Scalability					. External interfaces
+		. Performance		       . Portability					. Backward compatibility
+		. Availability 		       . Efficiency					. Compliance needs
+
+
+* Identifying Nonfunctional Requirements
+----------------------------------------
+
+		TAXONOMY ---> REDUCE ---> PRIORITIZE ---> QUANTIFY/SPECIFIY
+
+
+* Example
+---------
+		. Performance: Response time: less than two seconds to display or refresh a webpage.
+
+		. Availability: 99% between 6 a.m. to 9 p.m. on all days.
+
+		. Usability: 
+			- https://developer.android.com/design
+
+			- Help and tool tips
+
+			- Autocompletion, correction
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Challenge: Create statements
+------------------------------
+		. For: Clients of EatFit, Inc. 
+
+		. Who: who cook at home but are not aware about the nutritional information of the products they buy for cooking.
+
+		. The product: Nutrition information app.
+
+		. That: Will provied information about the nutritional value of the products the clients buy.
+
+		. Unlike: Other products like Android native samsung applications.
+
+		. Our System: Will be customized according to the american market.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Solution: Create statements
+-----------------------------
+
+* Problem Statement
+-------------------
+		. The problem of: not having tools to track nutrition coming from home-cooked food.
+
+		. affects:
+			. those who mostly eat home-cooked food
+
+			. and doctors/medial professionals who offer medical advice to their patients
+
+		. the impact of which is: that people are not able to track the nutrition coming from their daily consumption of food and know how they can make it healthy
+
+
+		. a successful solution would be: an app that will allow those who want to track their daily nutrition
+
+
+* Vision Statement
+------------------
+		. For: individuals and medical professionals
+
+		. Who: want for themselves of for their patients to have a healthy diet
+
+		. The product Nutribyte: is a mobile health app
+
+		. That:
+			. Will help its users track their daily nutrition;
+
+			. will help compare it with recommendations made by
+
+				- USDA or
+				- their doctors
+			
+			based on their gender, age, weight, height, and other health conditions
+
+		. Unlike: other products in the market such as X, Y
+
+		. Our product NutriByte: will offer customized nutrition tracking based on user's health profile
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

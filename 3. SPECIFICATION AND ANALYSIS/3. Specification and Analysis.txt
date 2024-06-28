@@ -1,0 +1,327 @@
+# 3. Specification and Analysis
+-------------------------------
+
+* User-stories
+--------------
+
+* From System to User
+---------------------
+
+			WHAT SYSTEM SHALL DO				WHAT USERS WANT
+			--------------------				---------------
+			. SYSTEM SHALL auto-populate 			. AS A STUDENT, I WANT TO see the
+			student's schedule based on 			schedule of my classes so that I
+			registered classes from the 			may know when I can register for
+			university's academic calendar			other events
+
+			* USER STORY: A REQUIREMENT ARTICULATED FROM A USER'S PERSPECTIVE
+				. EXAMPLE
+				-------
+					. View event-list
+					-----------------
+						As a student, I want to view a list of events for today so that I may register for them.
+
+
+						AS A <USER-TYPE>, I WANT <TO DO A TASK> SO THAT <A GOAL>.
+		        				{Who}		     {What}		 {Why}
+
+
+						. EXAMPLE: . VIEW EVENT-LIST: AS A STUDENT, I WANT TO VIEW A LIST OF EVENTS FOR TODAY SO THAT I MAY REGISTER FOR THEM
+
+
+			* CONDITIONS OF SATISFACTION: ACCEPTANCE CRITERIA OF CONFIRMATION
+				. EXAMPLE
+				---------
+					. View event-list
+					-----------------
+						As a student, I want to view a list of events for today so that I MAY REGISTER FOR THEM.
+
+					. Conditions of satisfaction
+					----------------------------
+						. Verify that all events are listed
+		
+						. Verify that events registered for are marked so
+			
+						. Verify that conflicts are shown
+
+
+* Epics
+-------
+Not all user stories are the same.  Some of them are Epics.  High-level functionalities, very vague. They give a big picture of what the user wants, But often cannot be completed within
+a sprint.
+
+* User-Stories
+--------------
+Requirement articulated from a user's perspective
+
+* Features
+----------
+Come somewhere between high level epics and low-level stories
+
+* Theme
+-------
+Collection of related stories
+
+
+			* Story Mapping
+			---------------
+				. User stories
+				--------------
+					- Decomposed
+
+					- Sequenced
+
+					- Themed
+
+					- Prioritized
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Use-cases
+-----------
+
+1. User Story
+-------------
+A short description of a requirement from the user's perspective
+
+As a <user-type> I want to <task> so that <goal>
+
+
+2. Use case
+-----------
+An interaction between the system and an actor through which the actor achieves some value
+
+
+
+* Use Case Template
+-------------------
+. Title
+
+. Primary actors
+
+. Secondary actors
+
+. Preconditions
+
+. Basic flow
+
+. Alternative flows
+
+. Postonditions
+
+
+* Example
+---------
+. Title: view event schedule
+
+. Primary actor: student
+
+. Secondary actor: 
+academic calendar
+
+. Precondition: 
+	- UniCal application is open
+
+	- Student is logged into UniCal
+
+	- UniCal's option to view schedule is visible
+
+			WE SHOULD NOT SPECIFY THE SPECIFIC GRAPHICAL USER INTERFACE DETAILS SUCH AS MENUS OR BUTTONS IN A USE CASE SPECIFICATION
+
+			TWO REASONS:
+			------------
+				. WE HAVE NOT DESIGNED THE USER INTERFACE YET.
+
+				. IT IS LIKELY THAT IT MAY CHANGE IN FUTURE ITERATIONS.
+
+. Basic flow:
+-------------
+1. Student chooses the option to view event schedule.
+
+2. UniCal gives options to choose the period for event schedule.
+
+3. Student chooses the period.
+
+4. UniCal displays the list of events scheduled in the period with an option to exit the view.
+
+5. Student views the schedule and exits.
+
+6. Use case end successfully.
+
+
+. Alternate flow:
+-----------------
+1. After step 2 in basic flow, student selects period for which no events are scheduled.
+
+2. UniCal displays a message to convey the above with an option to exit.
+
+3. Student exists.
+
+
+. Postcondition
+---------------
+. UniCal is back to its original open state.
+
+
+
+* Use Case vs. User Story
+-------------------------
+
+Use Case							User Story
+--------							----------
+. Originated in unified						. Originated as part of scrum framework
+process methodology
+
+. Represents a user interaction					. Represents a user need
+
+. Requirements analyzed and 					. Requirements understood
+captured in a document						through conversations
+
+. Suitable for projects with complex requirements		. Suitable for projects with small collocated teams and frequent access to the user
+and large distributed teams
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Data requirements
+-------------------
+Capturing the characteristics of the data is as critical as understanding the functional and non-functional requirements of the system.
+
+* Data characteristics
+----------------------
+Functional and Non-functional
+
+. Functional
+------------
+Focuses on the internal characteristics of the data or its meaning
+
+. Non-functional
+----------------
+Focuses on:
+
+	. Source
+	. Destination
+	. Format
+	. Frequency
+	. Volume
+	. Volatility
+	. Integrity
+	. Consistency
+
+For example if you are developing a financial accounting application, you cannot understand its functionality unless you understand terms such as debit, credit, assets, liabilities, 
+balance sheet, and income statement.
+
+The data content or its meaning, represents domain knowledge.
+
+This domain knowledge about domain specific terms and their meaning is captured in a data dictionary.
+
+		A DATA DICTIONARY IS A COLLECTION OF DETAILED INFORMATION ABOUT THE DATA ENTITIES USED IN AN APPLICATION.
+
+		THE DICTIONARY SHOULD BE CONSTANTLY UPDATED AS NEW REQUIREMENTS ARE DEVELOPED, AND THE TEAM ACQUIRES NEW UNDERSTANDING ABOUT DIFFERENT TERMS.
+
+		FROM DATA DICTIONARY YOU CAN THEN MOVE ON TO A VERY IMPORTANT ASPECT OF DATA THAT RELATES TO ITS ACCESS.  YOU NEED TO MAP WHICH ACTOR HAS WHAT KIND OF ACCESS TO VARIOUS
+		DATA ELEMENTS.
+
+		ONE WAY TO CAPTURE THIS IS TO USE A CRUD MATRIX.
+
+Event
+-----
+. Seminar
+. Conference
+. Lecture
+. Celebration
+
+Members
+-------
+. Employee
+. Student 
+. Visitors
+
+Event Schedule
+--------------
+. Date
+. Time
+
+
+		* A CRUD MATRIX HELPS TO IDENTIFY ANY MISSED REQUIREMENTS.
+
+		AS THE DATA FLOWS FROM INPUT TO OUTPUT, THE PROCESSES THAT IT CAN GO THROUGH CAN BE MODELED USING DATA FLOW DIAGRAMS OR DFD'S.
+
+		* DATA FLOW DIAGRAMS (DFDS) PROVIDE A BIG-PICTURE VIEW OF HOW DATA MOVES THROUGH A SYSTEM.
+
+		* ENTITY RELATIONSHIP DIAGRAMS (ERDS) USED IN REQUIREMENTS ANALYSIS, FOCUS ON RELATIONSHIPS AMONG DATA ENTITIES IRRESPECTIVE OF THEIR IMPLEMENTATION IN A DATABASE.
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+	
+
