@@ -1,0 +1,208 @@
+# 5. Requirement Management
+---------------------------
+
+* Effort estimation
+-------------------
+
+. Planning Poker
+---------------
+A consensus-based estimation technique used in SCRUM methodology in which the entire team collaboratively comes up with the effort required to complete a product backlog item
+
+
+. Three important concepts used in planning poker
+-------------------------------------------------
+
+1) Product Backlog Item
+-----------------------
+A requirement to be implemented
+
+May be a feature, user story, an epic, a defect, on an enhancement
+
+2) Story Point
+--------------
+Unit of effort
+
+Based on complexity and size
+
+Often relative
+
+
+3) Velocity
+-----------
+Amount of work completed in each sprint
+
+Expressed as number of story points per sprint
+
+
+* Example
+---------
+1) In a Story Map, each cell is a user story.  
+2) The team picks up a user story, uses the planning poker technique, and assigns story points to the user story.
+
+
+* Estimation
+------------
+. Scrum master facilitates
+
+. Product owner explains the product backlog item
+
+. Team discusses and asks clarifying questions
+
+. Team members individually select their poker card
+
+. Team members reveal their card
+
+. If estimates differ, then another round of discussion is conducted, especially with the highest and lowest estimators
+
+. Team members reselect their card
+
+. Team repeats this cycle until consensus is reached
+
+
+		**** VERY IMPORTANT POINT FOR THE PROJECT **** (Software Design: Developing Effective Requirements - Neelam Dwivedi, Software Requirements by Karl Wiegers and Joy Betty, 
+		----------------------------------------------
+							       Essential Scrum: A Practical Guide to the Most Popular Agile Process by Kenneth S. Rubin, Open Unified Process (OpenUP),
+							       https://www.utm.mx/~caff/doc/OpenUPWeb/index.htm)
+
+		ONE STANDARD IN THE INDUSTRY IS 2 STORY POINTS FOR EACH REQUIREMENT, 15 TO 18 STORY POINTS FOR A SPRINT 
+		(THAT MEANS THAT IN A SPRINT IS POSSIBLE TO COMPLETE 7 REQUIREMENTS), AND A SPRINT OF TWO WEEKS.
+
+		TEAMS GIVE ESTIMATES BASED ON THE KNOWN FACTORS AT THE TIME OF THE ESTIMATION.  IF A UNKNOWN FACTOR APPEARS, THEN THE ESTIMATION NEEDS TO BE RECONSIDERED.
+
+
+* Important Considerations
+--------------------------
+. Story points are relative and vary with the team
+
+. Estimates are not commitments
+
+. Velocity is historical and often expressed as a range
+
+. Teams get better in estimation over time
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Prioritization
+----------------
+
+* Requirement Prioritization
+----------------------------
+
+- A way to 
+
+. Implement most valuable functionality early
+
+. Reduce risk
+
+. Deal with competing stakeholder demands
+
+- Also known as requirements triage
+
+
+* Prioritization Participants
+-----------------------------
+. Customers
+
+. Sponsors
+
+. Project Team
+
+. Support Team
+
+
+* Prioritization Factors
+------------------------
+. Value to Customer
+
+. Requirement Dependencies
+
+. Technical risk
+
+
+* Prioritization Techniques
+---------------------------
+. In or Out
+
+. Pairwise comparison and rank ordering
+
+. N-level scales
+
+
+* In or Out
+-----------
+. Partipants identify minimum requirements for first release
+
+. Make a binary decision: Is it in or it is out?
+
+. The ones marked "in" are implemented in first iteration
+
+. The ones marked "out" are taken through same process for next release
+
+
+* Pairwise Comparison and Rank Ordering
+---------------------------------------
+. Compare requirements in pairs to determine which one is more important
+
+. Assign requirement score based on number of times it got elected as more important in a pair
+
+
+* N-Level Scale
+---------------
+. Three-level scale: high, medium, low
+
+. MoSCoW: must, should, could, won't
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

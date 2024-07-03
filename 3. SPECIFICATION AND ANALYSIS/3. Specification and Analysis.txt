@@ -252,6 +252,132 @@ Event Schedule
 
 		* ENTITY RELATIONSHIP DIAGRAMS (ERDS) USED IN REQUIREMENTS ANALYSIS, FOCUS ON RELATIONSHIPS AMONG DATA ENTITIES IRRESPECTIVE OF THEIR IMPLEMENTATION IN A DATABASE.
 
+
+
+Nonfunctional perspective focuses on structural properties of source data and destination data.
+
+
+* Source
+--------
+. Text: coding and language
+
+. Audio/Video: streaming or download file format
+
+. Signal: analog or digital
+
+. Format, integrity, consistency: need for ETL (extract, transform, load) functionality ---> PAY ATTENTION TO THIS, BECAUSE ITS VERY IMPORTANT FOR THE PROJECT
+
+. Volume: bandwidth and storage
+
+. Volatility: database performance
+
+
+* Destination
+-------------
+. Report
+--------
+	- Latency
+	- Layout
+	- Interaction
+
+. Audio/Video: streaming or download file format
+
+. Signal: analog or digital
+
+. Volume: bandwidth and storage
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Challenge: Write a user story
+-------------------------------
+
+
+* Solution: Write a user story
+------------------------------
+1. Write one use case with its actors, precondition, postcondition, and basic flow.
+
+2. Write one user story with its conditions of satisfaction.
+
+
+* User Story
+------------
+. Track self-
+-------------
+	As an EatFit customer, I want to input the food-products consumed in each meal by me, so that I can track my consumption of key-nutrients.
+	      ---------------
+
+. Conditions of satisfaction
+----------------------------
+	. Verify that I can enter all food products and quantity consumed by me in a meal.
+
+	. Verify that all meals are recorded and shown in the track.
+
+	. Verify the key-nutrients are tracked over time.
+
+
+. Track patient-nutrition
+-------------------------
+	As an EatFit Professional, I want to track my patients' consumption of key nutrients, so that I may advise them about any improvements needed in their diet.
+	      -------------------
+
+. Conditions of satisfaction
+----------------------------
+	. Verify that I am able to view my patients' meal records.
+
+	. Verify that I am able to view my patient's key nutrients.
+
+	. Verify that I am able to see the record of my patient's key-nutrient consumption over time.
+
+
+* Use Case
+----------
+. Title: Track self-nutrition
+
+. Primary actor: EatFit customer (EC)
+
+. Secondary actor: USDA database
+
+. Precondition: EC should be logged in
+
+
+. Basic Flow:
+-------------
+1. EC creates a new meal entry with date and time.
+
+2. EC searches for food product.
+
+3. NutriByte fetches the product from USDA DB.
+
+4. EC enters the quantity consumed.
+
+5. EC repeats step 2 and 3 till all products consumed in the meal are entered.
+
+6. EC saves the meal record.
+
+
+. Postcondition
+---------------
+A new meal record is saved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
 
 		

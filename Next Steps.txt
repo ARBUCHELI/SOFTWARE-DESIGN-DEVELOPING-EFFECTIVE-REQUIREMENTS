@@ -1,0 +1,23 @@
+# Next Steps
+------------
+
+* Key References
+----------------
+Software Requirements by Karl Wiegers and Joy Betty
+		
+Essential Scrum: A Practical Guide to the Most Popular Agile Process by Kenneth S. Rubin
+
+Open Unified Process (OpenUP)
+							       
+https://www.utm.mx/~caff/doc/OpenUPWeb/index.htm)
+
+
+* LinkedIn Library
+------------------
+. Programming Foundations: Object-Oriented Design
+
+. Agile at Work: Planning with Agile User Stories
+
+. Agile Requirement Foundations
+
+

@@ -1,0 +1,267 @@
+# 4. Requirement Validation
+---------------------------
+
+* Validation techniques
+-----------------------
+1) Whichever software development technology you follow, you always start with requirements.
+
+2) Designing.
+
+3) Code.
+
+
+* Verification
+--------------
+Doing it right
+
+Example: make sure requirements are written correctly
+
+
+* Validation
+------------
+Doing the right thing
+
+Example: make sure correct requirements are written
+
+
+* Early validation
+------------------
+Significantly reduces the cost of fixing bugs. The rate is 1/10
+
+
+		* IF YOU SPEND ONE HOUR VALIDATING YOUR REQUIREMENTS BEFORE YOU GET THEM INTO DESIGN AND CODING, YOU WOULD SAVE 10 HOURS IN THE FUTURE EFFORT.
+
+
+* Validation Techniques
+-----------------------
+
+. Process
+---------
+Templates and Checklist:
+
+These artifacts are either created by organizations, based on their experiences in past projects, or adapted from publicly available resources, such as OpenUp.
+
+
+. People
+--------
+Peer Review
+
+
+. Product
+---------
+Prototype
+
+
+* Process
+---------
+. Checklists
+------------
+They are also called as defect checklists.  They are artifacts that have developed over a period of time based on best practices and learnings from previous projects. They capture all
+those commonly recurring issues that can lead to defects in the product, and therefore are very handy to make sure you do not skip or miss out any important criteria of quality.
+
+. Developing Checklist
+----------------------
+Correctness
+-----------
+. Requirement correctly captured
+. Use case not too broad or vague
+
+Completeness
+------------
+. All scenarios identified
+. All actors identified
+
+Readability
+-----------
+. Active voice
+. Domain terminology defined in a shared glossary
+
+
+* Peer Review
+-------------
+. Informal peer review
+----------------------
+. For quick unstructured feedback
+. Not recorded or tracked
+
+. Formal peer review
+--------------------
+. Well-defined roles
+. For feedback that is structured, recorded, and tracked
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Prototyping
+-------------
+
+* Prototype
+-----------
+A partial preliminary implementation of a product to
+	. Confirm requirement understanding
+	. Assess architectural feasibility
+
+		**** VERY IMPORTANT POINT FOR THE PROJECT **** (Software Design: Developing Effective Requirements - Neelam Dwivedi, Software Requirements by Karl Wiegers and Joy Betty, 
+		----------------------------------------------
+							       Essential Scrum: A Practical Guide to the Most Popular Agile Process by Kenneth S. Rubin, Open Unified Process (OpenUP),
+							       https://www.utm.mx/~caff/doc/OpenUPWeb/index.htm)
+
+
+			* WHEN DEVELOPING A SOFTWARE PRODUCT THERE ARE TWO KEY FACTORS THAT CAN CONTRIBUTE TO RISK:
+				. Lack of requirement clarity
+				. Technology uncertainty
+
+			* IF YOUR RISK IS MORE DUE TO THE LACK OF REQUIREMENT CLARITY, THEN YOU CAN DEVELOP A MOCK-UP THAT SHOWS THE USER-FACING PART OF THE PRODUCT.
+
+			* IF YOUR RISK IS MORE DUE TO TECHNOLOGY UNCERTAINTY, THEN YOU CAN DEVELOP A DIFFERENT KIND OF PROTOTYPE, CALLED IS A PROOF OF CONCEPT, WHICH IS A VERTICAL
+			PROTOTYPE. IT IMPLEMENTS A NARROW BUT A COMPLETE SLICE OF FUNCTIONALITY THAT COVERS ALL THE LAYERS OF FUNCTIONALITY, FROM THE USER INTERFACE TO THE LAYERS
+			UNDERNEATH. THAT IS THE APPLICATION LAYER, THE NETWORK LAYER, AND THE DATA LAYER.
+
+
+* Prototype
+-----------
+. Mockup: horizontal prototype to validate user interface only
+
+. Proof of concept: vertical prototype of a complete but narrow functionality to validate complete technology stack
+
+
+* Learning Mockup Tools
+-----------------------
+. Wireframing for Product Managers
+
+. Balsamiq Mockups Training and Tutorials
+
+. Web Design: Efficient Workflow
+
+. Create a Shopping Cart in Framer X
+
+
+* Proof of Concept
+------------------
+There are three basic layers of any software product:
+
+. Frontend ---> User Interface
+
+. Business logic ---> Core Application Layer
+
+. Backend ---> Data Layer
+
+A complete use case cuts through all these layers of a technology stack for full implementation.
+
+
+		**** VERY IMPORTANT POINT FOR THE PROJECT **** (Software Design: Developing Effective Requirements - Neelam Dwivedi, Software Requirements by Karl Wiegers and Joy Betty, 
+		----------------------------------------------
+							       Essential Scrum: A Practical Guide to the Most Popular Agile Process by Kenneth S. Rubin, Open Unified Process (OpenUP),
+							       https://www.utm.mx/~caff/doc/OpenUPWeb/index.htm)
+			
+			* IF THE DEVELOPERS ARE NOT SURE THAT A USE CASE CAN BE IMPLEMENTED USING A TECHNOLOGY STACK, A SERIOUS RISK IS INTRODUCED IN THE PROJECT.
+
+			* IN THIS CASE IDENTIFY THE USE CASES THAT ARE DIFFICULT TO DEVELOP AND TRY TO CREATE A PROOF OF CONCEPT WITH YOUR TEAM.
+
+
+		**** VERY IMPORTANT POINT FOR THE PROJECT **** (Software Design: Developing Effective Requirements - Neelam Dwivedi, Software Requirements by Karl Wiegers and Joy Betty, 
+		----------------------------------------------
+							       Essential Scrum: A Practical Guide to the Most Popular Agile Process by Kenneth S. Rubin, Open Unified Process (OpenUP),
+							       https://www.utm.mx/~caff/doc/OpenUPWeb/index.htm)
+
+			* WHAT WE DO WITH THE PROTOTYPE ONCE WE FINALIZED THE UI OR THE TECHNOLOGY STACK?
+
+			* IN AGILE METHODOLOGIES WE USE A EVOLUTIONARY PROTOTYPE - NO - A THROWAWAY
+			---------------------------------------------------------------------------
+
+
+* Prototype
+-----------
+
+. Throwaway
+-----------
+A nonreleasable rough draft to confirm understanding
+
+. Evolutionary
+--------------
+Foundational core as a part of incremental release
+
+
+		* WHEN YOU START WITH A PROTOTYPE THAT HAS CORE FUNCTIONALITIES IN THE INITIAL ITERATION, AND THEN YOU BUILD UPON IT WITH MORE FUNCTIONALITY, IN THE NEXT ITERATION
+		IN EXTREME PROGRAMMING APPROACH PAIR PROGRAMMERS TAKE ONE USER STORY AND IMPLEMENT IT IN THE CORE, CONTINUOSLY VALIDATING EACH OTHER'S WORK, AND INCREMENTALLY RELEASING
+		THE PRODUCT FOR CONTINUOUS VALIDATION FROM THE USER.
+
+		* THIS CONTINUOUS VALIDATION IS ALSO COMMON IN BEHAVIOR DRIVEN DEVELOPMENT, AND TEST DRIVEN DEVELOPMENT.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Validate prototype
+--------------------
+. Define acceptance criteria.
+
+. Create a mockup.
+
+
+* User Story
+------------
+
+. Track self-nutrition
+----------------------
+. As an EatFit customer, I want to input the the food-products consumed in each meal by me, so that I may track my consumption of key-nutrients
+
+
+. Conditions of satisfaction
+----------------------------
+. Verify that I can enter all food products and quantity consumed by me in a meal
+
+. Verify that all meals are recorded and show in the track
+
+. Verify that key-nutrients are tracked over time
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
